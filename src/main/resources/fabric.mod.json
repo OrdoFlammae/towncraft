@@ -19,7 +19,9 @@
     "main": [
       "io.github.ordoflammae.towncraft.TownCraft"
     ],
-    "client": [],
+    "client": [
+      "io.github.ordoflammae.towncraft.client.TownCraftClient"
+    ],
     "server": []
   },
   "depends": {
