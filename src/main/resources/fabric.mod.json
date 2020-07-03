@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "towncraft",
+  "version": "${version}",
+  "name": "towncraft",
+  "description": "Build towns in Minecraft",
+  "authors": [
+    "OrdoFlammae"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/OrdoFlammae/towncraft/",
+    "sources": "https://github.com/OrdoFlammae/towncraft/"
+  },
+  "license": "MIT",
+  "icon": "assets/towncraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.ordoflammae.towncraft.TownCraft"
+    ],
+    "client": [],
+    "server": []
+  },
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
